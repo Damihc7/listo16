@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <head>
+          <meta charset="utf-8">
+          <title>Tarea 2.16</title>
+      </head>
+
+      <body>
+        <h1>Formulario de retroalimentacion sobre su visita al campus</h1>
+        <p>Llene este Formulario para Ayudarnos Saber su Opnion Respecto al Campus Universitario</p>
+        <form method="post" action="mailto:dayannahernandezcr@gmail.com">
+        <input type = "hidden" name="Destinatario"  value="dayannahernandez@gmail.com">
+        <input type = "hidden" name="Asunto"  value="Formulario Retroalimentacion">
+        <input type = "hidden" name="Redirigir"  value="principal.html">
+        <p><label>Nombre:<input name= "nombre" type = "text" size= "30" maxlength="30"></label></p>
+        <br>
+        <p><label>Correo:<input name= "correo" type = "password" size= "30" maxlength="30"></label></p>
+        <br>
+
+        <p><strong>Seleccione lo que Más le Gusto del Campus</strong></p>
+        <p><label>Campus<input name= "cosasgustaron" type = "checkbox"  value="Campus"></label>
+        <label>Estudiantes<input name= "cosasgustaron" type = "checkbox"  value="Estudiantes"></label>
+        <label>Ubicación<input name= "cosasgustaron" type = "checkbox"  value="Ubicación"></label>
+        <label>Ambiente<input name= "cosasgustaron" type = "checkbox"  value="Ambiente"></label>
+        <label>Dormitorios<input name= "cosasgustaron" type = "checkbox"  value="Dormitorios"></label>
+        <label>Deportes<input name= "cosasgustaron" type = "checkbox"  value="Deportes"></label>
+        </p>
+        <br>
+
+        <p><label>Como Supo Sobre la Universidad :
+            <select name = "Universidad"><option selectd>Internet</option>
+            <option>Familia</option>
+            <option>Amigos</option>
+            <option>Television</option>
+            <option>Otros</option></select>
+          </label>
+        </p>
+          <br>
+          <p><label>Espacio para Comentarios: <br><textarea name = "comentarios" rows = "4" cols = "36"></textarea></label></p>
+
+
+          <p><input type= "submit" value= "Enviar"> 
+            <input type= "reset" value="Restablecer"></p>
+      </body>
+    </head>
+</html>
